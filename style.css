@@ -1,0 +1,493 @@
+
+body{
+    margin: 0!important;
+    padding: 0!important;
+    font-family: 'Poppins', sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    transition: 0.5s;
+}
+
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.bg-blueLight{
+    background-color: #78b5fa;
+}
+
+.bg-blueLight2{
+    background-color: #f2f2f7 !important;
+}
+
+.bg-blueLight3{
+    background-color: #cde7fc !important;
+}
+
+.hero-blur{
+    display: flex;
+    background-color: #f4f5fc;
+    padding: 40px 30px 25px 30px !important;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    transition: 1s;
+}
+
+
+.profile{
+    position: relative;
+}
+.profile img{
+    width: 80px;
+}
+
+.change-pic{
+    position: absolute;
+    right: -10px;
+    bottom: -5px;
+    font-size: 20px;
+}
+
+.widget{
+    border-radius: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7px;
+    padding-bottom: 0px;
+}
+
+.widget-active, .widget-active i{
+    background-color: #0067ff;
+    color: white;
+}
+
+.widget-active p{
+    color: #78b5fa;
+}
+
+.widget i{
+    font-size: 50px;
+    margin-bottom: 20px !important;
+}
+
+
+
+.widget p{
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: -5px;
+}
+
+.hero{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.offtuto{
+    background-color: #cde7fc;
+    border-radius: 20px;
+    background-image: url(./assets/undraw_product_explainer_8jbm.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 15px solid #cde7fc;
+    height: 370px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.offtutov2{
+    background-color: #8e8e93;
+    border: 15px solid #8e8e93;
+    background-image: url(./assets/undraw_exploring_re_grb8.svg);
+}
+
+
+.info{
+    float: right;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-card{
+    position: absolute;
+    bottom: 0;
+    background-color: #0067ff;
+    backdrop-filter: blur(14px);
+    background-color: rgba(0, 103, 255, 0.7);
+    z-index: 1;
+    border-radius: 20px;
+    padding: 15px;
+    color: white;
+}
+
+.footer-cardv2{
+    background-color: rgba(92, 92, 95, 0.8);
+}
+
+.footer-card span{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-card p{
+    font-size: 14px;
+    color: #f0f0f1;
+    margin-top: 10px;
+}
+
+.footer-card button{
+    float: right;
+    padding: 10px 30px;
+    border: 1px solid silver;
+    background-color: transparent;
+    color: white;
+    border-radius: 15px;
+}
+
+.container{
+    padding: 20px;
+}
+.box-v{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #cde7fc;
+    padding: 30px;
+    width: 90%;
+    border-radius: 20px;
+    max-width: 500px;
+}
+
+.withBorder{
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: #dee2e6;
+}
+
+tr{
+    vertical-align: middle;
+}
+
+.widget-disabled{
+    color: gray !important;
+}
+
+th{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+th:first-child{
+    border-top-left-radius: 8px;
+}
+
+th:last-child{
+    border-top-right-radius: 8px;
+}
+
+
+.video-container {
+    width: 100%;
+    display: flex;
+    height: 560px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.loginLogo{
+    font-weight: 600;
+    font-size: 50pxofftuto;
+}
+
+#video {
+    margin-left: -220px;
+}
+
+@media (min-width: 570px) {
+    .video-container{
+        width: 400px;
+    }
+}
+
+@media (min-width: 1160px) {
+        .viewArea{
+            padding-left: 400px;
+            padding-right: 400px;
+        }
+}
+
+@media (min-width: 1350px) {
+    .viewAreaCall{
+        padding-left: 400px;
+        padding-right: 400px;
+    }
+}
+
+
+
+.bg-bgColor{
+    background-color: #cde7fc;
+}
+
+.bg-blur{
+    backdrop-filter: blur(14px);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar{
+    --bs-navbar-padding-y: 0.125rem !important;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.navbar-toggler{
+    border: 0 !important;
+}
+
+.form-floating input{
+   border: 1px solid #d2d2d7;
+   border-radius: 12px;
+   color: #494949;
+}
+
+.userinput input{
+    border: 1px solid #d2d2d7;
+    border-radius: 12px;
+    border-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    
+ }
+
+.passinput input{
+    border: 1px solid #d2d2d7;
+    border-radius: 12px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+ }
+
+
+.error-msg{
+    background-color: #f44336;
+    padding: 8px 20px 8px 20px;
+    color: white;
+    border-radius: 12px;
+}
+
+.widget-radius{
+    border-radius: 22px !important;
+}
+
+.opcoes-adicionais {
+    display: block;
+    overflow: hidden;
+    transition: height 0.3s ease-out;
+    height: 0;
+  }
+  
+  .opcoes.expandido .opcoes-adicionais {
+    display: block;
+    height: auto;
+    transition: height 0.3s ease-out;
+  }
+  
+  #mostrar-mais {
+    cursor: pointer;
+    background-color: #d1d1d6; /* apenas para ilustrar o botão */
+    border: none;
+    padding: 0px 40px 0px 40px;
+    border-radius: 29px;
+    text-align: left;
+    text-align: center;
+    color: #78787c;
+  }
+  
+  #mostrar-mais .seta {
+    font-size: 30px;
+    transition: transform 0.3s ease-out;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .opcoes.expandido #mostrar-mais .seta {
+    transform: rotate(180deg);
+  }
+
+.adm-widget{
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    width: 350px;
+    padding: 0px 10px 0px 10px;
+    margin: 10px;
+}
+
+.adm-widget i{
+    font-size: 40px;
+    background-color: #d5d5d5;
+    padding: 0px 12px 0px 12px;
+    border-radius: 10px;
+    color: #444444;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.action{
+    margin-left: 10px;
+    margin-right: 0px !important;
+}
+
+.adm-widget div:first-child{
+    text-transform: uppercase;
+    color: #7e7e7e;
+    font-size: small;
+}
+
+.adm-widget div:last-child{
+    color: #7e7e7e;
+    font-weight: 600;
+    font-size:x-large;
+}
+
+.box{
+    margin: auto;
+    width: 48vh;
+    padding: 10px;
+}
+
+.firstSec{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.img-container {
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .img-container img{
+    max-width: 650px;
+    width: 100%;
+  }
+
+
+.secondSec{
+    background-color: #F5F5F7;
+}
+
+.about-title{
+    font-size: 3rem;
+}
+
+.drop{
+    background-color: white;
+    border-radius: 14px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.card-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lgCard, .smCard, .mdCard{
+    background-color: #F5F5F7;
+    border-radius: 25px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.lgCard{
+    max-width: 440px;
+    min-height: 660px;
+}
+
+.smCard{
+    position: relative;
+    max-width: 370px;
+    width: 325px;
+    height: 325px;
+    overflow: hidden;
+}
+
+.mdCard{
+    max-width: 313px;
+    height: 402px;
+    padding: 20px;
+}
+
+.mdCard i{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    border: 3px solid black;
+    padding: 10px 18px 10px 18px;
+    border-radius: 200px;
+}
+
+.mdCard h4{
+    margin-top: 0 !important;
+}
+
+.lgCard h5, .smCard h5, .mdCard h4{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.lgCard video{
+    margin-top: 10px;
+    max-width: 260px;
+    border-radius: 20px;
+}
+
+.smCard img{
+    width: 320px;
+    border-radius: 20px;
+}
+
+#ipad{
+    position: absolute;
+    bottom: -0px;
+}
+
+#iphone{
+    width: 230px;
+    position: absolute;
+    bottom: -20px;
+}
+
+.price{
+    min-width: 300px;
+}
+
+@media (max-width: 580px) {
+    .card-group{
+        flex-direction: column;
+        
+    }
+
+    .smCard{
+        width: 100%;
+    }
+
+}
